@@ -1,0 +1,187 @@
+/* Reset and basic styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  color: #333;
+  background-color: #f4f4f9;
+  /*background: url('../images/image7.jpg') center/cover no-repeat;*/
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 80px 20px;
+  /*background: linear-gradient(135deg, #2c3e50, #4ca1af);*/
+  background: url('../images/image9.jpg') center/cover no-repeat;
+  color: white;
+}
+
+.header h1 {
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.header p {
+  font-size: 1.2rem;
+  margin: 10px 0 20px;
+}
+
+.btn {
+  padding: 10px 25px;
+  color: white;
+  background-color: #e67e22;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 25px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #d35400;
+}
+
+/* Intro Section */
+.intro {
+  text-align: center;
+  padding: 50px;
+}
+
+.intro h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+/* Services Preview */
+.services-preview {
+  text-align: center;
+  padding: 50px;
+  background-color: #ecf0f1;
+}
+
+.services-preview h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.service-card {
+  display: inline-block;
+  width: 280px;
+  margin: 15px;
+  padding: 8px;
+  color: white;
+  background-color: #3498db;
+  border-radius: 10px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.service-card:hover {
+  background-color: #2980b9;
+  transform: translateY(-10px);
+}
+
+
+
+
+/* Footer */
+footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #2c3e50;
+  color: white;
+}
+
+
+/* Testimonials Section Styles */
+.testimonials {
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.testimonials h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.testimonials blockquote {
+  background-color: #fff;
+  border-left: 4px solid #007bff;
+  padding: 20px;
+  margin: 20px 0;
+  font-style: italic;
+  font-size: 1.1em;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.testimonials blockquote p {
+  margin: 0;
+  color: #555;
+}
+
+.testimonials blockquote cite {
+  display: block;
+  margin-top: 10px;
+  color: #007bff;
+  font-weight: bold;
+}
+
+
+
+
+/* About Us Section Styles */
+.about-us {
+  background-color: #e9ecef;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 8px;
+}
+
+.about-us h2 {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.about-us p {
+  font-size: 1.2em;
+  color: #555;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* About Us Section Styles */
+.about-us {
+  background-color: #f4f6f8; /* Light gray background for contrast */
+  padding: 60px 30px; /* Increased padding for spacious layout */
+  text-align: center;
+  margin-top: 60px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.about-us h2 {
+  font-size: 2.4em; /* Larger heading for impact */
+  color: #2c3e50; /* Dark gray for sophistication */
+  font-weight: 600; /* Slightly bolder font weight */
+  margin-bottom: 30px;
+}
+
+.about-us p {
+  font-size: 1.2em; /* Slightly larger text for readability */
+  color: #7f8c8d; /* Medium gray for a clean look */
+  line-height: 1.8; /* Comfortable line spacing */
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  font-family: 'Arial', sans-serif;
+}
