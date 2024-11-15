@@ -10,6 +10,7 @@ body {
   font-family: 'Roboto', sans-serif;
   background-color: #f4f4f4;
   color: #333;
+  padding-top: 80px; /* Adjust this value based on your navbar height */
 }
 
 /* Navbar */
@@ -21,6 +22,7 @@ body {
   top: 0;
   left: 0;
   z-index: 999;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .navbar-container {
@@ -58,6 +60,7 @@ body {
   margin: 0 auto;
 }
 
+/* Contact Header */
 .contact-header {
   text-align: center;
   margin-bottom: 40px;
@@ -206,4 +209,37 @@ footer {
 
 footer p {
   font-size: 1rem;
+}
+
+/* Mobile View - Navbar Adjustment */
+@media (max-width: 768px) {
+  .navbar .navbar-links {
+    display: none; /* Hide navbar links for small screens */
+  }
+
+  .navbar-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar .logo {
+    margin-bottom: 10px;
+  }
+
+  .contact-content {
+    flex-direction: column;
+  }
+
+  .contact-info, .contact-form {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .contact-title {
+    font-size: 2.5rem;
+  }
+
+  .contact-subtitle {
+    font-size: 1rem;
+  }
 }
